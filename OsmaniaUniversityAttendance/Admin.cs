@@ -7,14 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DAL;
 
 namespace OsmaniaUniversityAttendance
 {
-    public partial class Form1 : Form
+    public partial class Admin : Form
     {
-        public Form1()
+
+        public string LoginId;
+        DBAccessor accessor = new DBAccessor();
+
+        public Admin(string loginId)
         {
             InitializeComponent();
+            LoginId = loginId;
+        }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

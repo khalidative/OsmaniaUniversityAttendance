@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmaniaUniversityAttendance", "OsmaniaUniversityAttendance\OsmaniaUniversityAttendance.csproj", "{F8B6416F-8625-4DB8-A9E3-D0130C4B9249}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{FA0FD500-1E93-4E56-8732-530C8F7C7CF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F8B6416F-8625-4DB8-A9E3-D0130C4B9249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B6416F-8625-4DB8-A9E3-D0130C4B9249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B6416F-8625-4DB8-A9E3-D0130C4B9249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0FD500-1E93-4E56-8732-530C8F7C7CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0FD500-1E93-4E56-8732-530C8F7C7CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0FD500-1E93-4E56-8732-530C8F7C7CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0FD500-1E93-4E56-8732-530C8F7C7CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
